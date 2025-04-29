@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
-
+    namespace 'com.amolg.flutterbarcodescanner' // 이거때문에 경로 새로판거임 ㅡㅡ
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
